@@ -1,0 +1,124 @@
+ * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+/*--------------------- التكليف 01 ---------------------*/
+.one {
+    width: 600px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #eeeeee;
+    position: relative;
+    border-right: 10px solid #6b3bbc;
+    border-left: 10px solid #f54139;
+    font-size: 90px;
+    text-align: center;
+}
+
+.one::first-letter {
+    color: #f24433;
+}
+
+.one:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background-image: linear-gradient(
+    to right,
+    #f54139 20%,
+    #2097f5 20%,
+    #2097f5 40%,
+    #4bb04f 40%,
+    #4bb04f 60%,
+    #e91f63 60%,
+    #e91f63 80%,
+    #6b3bbc 80%
+    );  
+}
+
+.one:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    background-image: linear-gradient(
+    to right,
+    #f54139 20%,
+    #2097f5 20%,
+    #2097f5 40%,
+    #4bb04f 40%,
+    #4bb04f 60%,
+    #e91f63 60%,
+    #e91f63 80%,
+    #6b3bbc 80%
+    );  
+}
+
+
+/*--------------------- التكليف 02 ---------------------*/
+/*----------- الحل 1 -----------*/
+input {
+    background-color: #f4f4f4;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #736e6c;
+    caret-color: red;
+    outline: none;
+    border: none;
+}
+
+.two {
+    position: relative;
+    width: 600px;
+    height: 50px;
+    margin: 15px auto;
+}
+
+.two::after {
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 5px;
+    background-image: linear-gradient(to right, #f44336 50%, #009688 50%);
+    background-color: #009688;
+}
+
+input:focus {
+    color: black;
+}
+
+/*----------- الحل 2 -----------*/
+/* input {
+    display: block;
+    background-color: #f4f4f4;
+    width: 600px;
+    height: 50px;
+    margin: 15px auto;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #736e6c;
+    border: none;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+    border-image: linear-gradient(to right, #f44336 50%, #009688 50%);
+    border-image-slice: 1;
+    caret-color: red;
+    outline: none;
+}
+
+input:focus {
+    color: black;
+} */

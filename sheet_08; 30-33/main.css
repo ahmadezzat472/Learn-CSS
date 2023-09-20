@@ -1,0 +1,254 @@
+/*--------------------- التكليف 01 ---------------------*/
+/*-------- الحل 1 --------*/
+.green,
+.red,
+.black,
+.blue {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.black {
+    background-color: #333333;
+    top: 30px;
+    left: 20px;
+    z-index: 1;
+}
+
+.blue {
+    background-color: #03a9f4;
+    top: 20px;
+    left: 20px;
+    z-index: 2;
+}
+
+.green {
+    background-color: #009688;
+    top: 30px;
+    left: 30px;
+    z-index: 3;
+}
+
+.red {
+    background-color: #f44336;
+    top: 40px;
+    left: 40px;
+    z-index: 4;
+}
+
+/*-------- الحل 2 --------*/
+.green,
+.red,
+.black,
+.blue {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+/*
+.black {
+    top: 30px;
+    left: 30px;
+    background-color: rgb(221, 57, 57)
+}
+
+.blue {
+    top: 20px;
+    left: 20px;
+    background-color:rgb(92, 197, 148);
+}
+
+.red {
+    width: 10px;
+    height: 10px;
+    top: 110px;
+    left: 10px;
+    background-color:rgb(43, 41, 41);
+}
+
+.green {
+    top: 10px;
+    left: 10px;
+    background-color:rgb(60, 236, 236);
+}  
+*/
+
+/*-------- الحل 3 --------*/
+/*
+.green,
+.red,
+.black,
+.blue {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.green{
+    background-color: #009688;
+    content: "";
+    position: absolute;
+    margin: 10px;
+}
+
+.red {
+    background-color: #f44336;
+    content: "";
+    position: absolute;
+    margin: 20px;
+}
+
+.blue {
+    background-color: #03a9f4;
+    content: "";
+    position: absolute;
+    margin: 0;
+    z-index: -1;
+}
+
+.black {
+    background-color: #333333;
+    content: "";
+    position: absolute;
+    margin: 10px 0;
+    z-index: -11;
+}
+*/
+
+
+/*--------------------- التكليف 02 ---------------------*/
+.box {
+    background-color:  #eeeeee;
+    width: 400px;
+    padding: 20px;
+    margin: 20px auto;
+    position: relative;
+    border-top: 2px solid #eb453b;
+    border-bottom: 2px solid #eb453b;
+    border-right: 2px solid #2196f3;
+    border-left: 2px solid #2196f3;
+    text-align: center;
+    line-height: 1.6;
+}
+
+span {
+    background-color: #2196f3;
+    padding: 5px 15px;
+    color: #fdfdfb;
+    position: absolute;
+}
+
+.top-left{
+    top: -15px;
+    left: -20px;
+    border-right: 2px solid #eb453b;
+}
+
+.bottom-left{
+    bottom: -15px;
+    left: -20px;
+    border-right: 2px solid #eb453b;
+}
+
+.top-right{
+    top: -15px;
+    right: -20px;
+    border-left: 2px solid #eb453b;
+}
+
+.bottom-right{
+    bottom: -15px;
+    right: -20px;
+    border-left: 2px solid #eb453b;
+}
+
+
+/*--------------------- التكليف 03 ---------------------*/
+.list {
+    width: 400px;
+    list-style: none;
+}
+
+.list-1,
+.list-2,
+.list-3 {
+    background-color: #eeeeee;
+    padding: 10px;
+    margin-bottom:15px;
+
+}
+
+.pone ,
+.ptwo ,
+.pthree {
+    padding: 5px 0 5px 28px;
+}
+
+.pone li,
+.ptwo li,
+.pthree li {
+    background-color: white;
+    width: 320px;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.pthree {
+    padding-left: 4px;
+}
+
+.pthree li {
+    list-style-position: inside;
+    width: 340px;
+    padding-left: 10px;
+}
+
+.pthree li {
+    list-style-type:circle;
+}
+
+
+/*--------------------- التكليف 04 ---------------------*/
+table {
+    width: 700px;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+}
+
+caption {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: #404040;
+    color: white;
+    padding: 10px
+}
+
+td {
+    background-color: #eeeeee;
+    padding: 10px;
+}
+
+button{
+    border: none;
+    color: white;
+    padding: 5px 10px;
+}
+
+button.two{
+    background-color: #e91e63;
+}
+
+button.one{
+    background-color: #03a9f4;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+}

@@ -1,0 +1,91 @@
+(1)
+/* Any Element With Class Title */
+.title {
+}
+
+/* Any Element With id nav */
+#nav {
+}
+
+/* Any element called div */
+div {
+}
+
+/* Any element called h2 */
+h2 {
+}
+
+_____________________________________________________________________________________________________________________________________
+(2)
+اكتب في تعليق نوع كل Style من التالي
+________________________________________
+<!-- external style -->
+<link rel="stylesheet" href="css/file.css" />
+
+<!-- internal style -->
+<style>
+    p {
+        color: red;
+    }
+</style>
+
+<!-- inline style -->
+<p style="color: blue;">This Is Our Paragraph</p>
+
+_____________________________________________________________________________________________________________________________________
+(3)
+قم بإستدعاء ملف Style خارجي موجود في مجلد بجانب ال index.html بإسم assets وداخله مجلد باسم css وإسم الملف هو master.css
+
+<link rel="stylesheet" href="assets/css/master.css">
+
+_____________________________________________________________________________________________________________________________________
+(4)
+قم بإستدعاء ملف Style خارجي موجود في مجلد خارج المجلد الموجود فيه ملف ال index.html بإسم source وداخله مجلد بإسم css
+وإسم الملف هو main.css
+
+<link rel="stylesheet" href="../source/css/main.css">
+
+_____________________________________________________________________________________________________________________________________ 
+(5)
+في أسماء ال Identifiers التالية حدد ما هو صالح وما هو غير صالح عن طريق كتابة Valid أو Not Valid في التعليق قبل الإسم 
+/* valid */
+._user-name { }
+
+/* valid */ 
+.-user-name { } 
+
+/* valid */ 
+.-user-name { } 
+
+/* not valid */ 
+.1user-name { } 
+
+/* not valid
+*/ .@user-name { }
+
+/* not valid */ 
+.user@name { } 
+
+/* valid */ 
+._user10name { }
+
+/* valid */ .u { }
+
+_____________________________________________________________________________________________________________________________________ 
+(6)
+في أسماء ال Identifiers التالية حدد ما الذي يتبع ال Best Practice عن طريق كتابة Good أو Bad في التعليق قبل الإسم 
+/* bad */
+.USERNAME { } 
+
+/* bad */ 
+.UserName { }
+
+/* good */ 
+.user-name { } 
+
+/* bad */ 
+.userName { } 
+
+/* bad */ 
+.usernameprofile {}
+

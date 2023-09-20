@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------- التكليف 01 ---------------------*//*--------------------- التكليف 01 ---------------------*/
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-position {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle-100 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    
+}
+
+.circle-200 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/*--------------------- التكليف 02 ---------------------*//*--------------------- التكليف 02 ---------------------*/
+div {
+    padding: 20px;
+    background-color: #dddddd;
+    margin: 35px auto;
+    width: 400px;
+    position: relative;
+}
+
+.arrow::before {
+    content:"";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-width: 20px;
+    border-style: solid;
+}
+.top::before {
+    position: absolute;
+    border-color: transparent transparent #dddddd transparent;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+
+.right::before {
+    position: absolute;
+    border-color: transparent transparent transparent #dddddd;
+    bottom: 50%;
+    right: 0;
+    transform: translate(100%, 50%);
+}
+
+.bottom::before {
+    position: absolute;
+    border-color: #dddddd transparent transparent transparent;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 100%);
+}
+
+.left::before {
+    position: absolute;
+    border-color: transparent #dddddd transparent transparent;
+    bottom: 50%;
+    left: 0;
+    transform: translate(-100%, 50%);
+}

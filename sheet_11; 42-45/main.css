@@ -1,0 +1,85 @@
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*--------------------- التكليف 01 ---------------------*/
+.parent {
+    background-color: #f2f2f4;
+    text-transform: capitalize;
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    margin: 100px auto ;
+    text-align: center;
+    font-weight: bold;
+    transition: margin-top 0.5s;
+}
+
+.son {
+    background-color: rgb(232, 232, 233);
+    width: 360px;
+    padding: 20px 0;
+    margin-top: 10px;
+    transition: margin-top 0.5s 0.5s;
+}
+
+.parent:hover {
+    margin-top: 60px;
+}
+.parent:hover .son{
+    margin-top: 40px;
+}
+
+
+/*--------------------- التكليف 02 ---------------------*/
+.two {
+    width: 400px;
+    margin:auto;
+    font-size: 0px !important;
+    background-color: #eeeeee !important;
+    color: #0b0b10 !important;
+    font-weight: bold;
+    text-align: center;
+    border: none !important;
+    position: relative;
+}
+
+/*--------- الحل 2 *---------*/
+.two::after {
+    content:"Elzero";
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);    /* transform: translate(): in the next videos (video 13) */
+}
+
+/*--------- الحل 1 *---------*/
+/* .two::after {
+    content:"Elzero";
+    position: absolute;
+    font-weight: bold;
+    font-size: 20px;
+    left: 175px;
+    top: 10px;
+}   */
+
+
+/*--------------------- التكليف 03 ---------------------*/
+:root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+} 
+
+.three {
+    width: 400px;
+    color: var(--mainColor,red);
+    border: solid 3px var(--mainColor,black);
+    padding: var(--mainPadding,10px);
+    margin: 0 auto 5px ;
+}
+
+

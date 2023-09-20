@@ -1,0 +1,165 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------- التكليف 01 ---------------------*//*--------------------- التكليف 01 ---------------------*/
+@media print {
+    div.assign-one {
+        font-size: 40px;
+    }
+}
+
+/*--------------------- التكليف 02 ---------------------*//*--------------------- التكليف 02 ---------------------*/
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.parent > div {
+    width: 100%;
+    padding: 20px;
+    height: 80px;
+    background-color: #eeeeee;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    position: relative;
+}
+
+.parent > div:before {
+    content: "This Is Product";
+    position: absolute;
+    font-size: 17px;
+    top: 60%;
+    left: 50%;
+    transform:translateX(-50%);
+    font-weight: normal;
+}
+
+@media (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 1124px) {
+    .parent > div {
+        width: calc(50% - 30px);
+        color: red;
+        margin: 15px;
+    }
+    .parent > div:before {
+        left: 50%;
+        transform:translateX(-50%);
+        color: black;
+    }
+}
+@media (min-width: 1125px) {
+    .parent > div {
+        width: calc(25% - 30px);
+        color: #1b958d;
+        margin: 15px;
+    }
+    .parent > div:before {
+        left: 50%;
+        transform:translateX(-50%);
+        color: black;
+    }
+}
+
+/*--------------------- التكليف 03 ---------------------*//*--------------------- التكليف 03 ---------------------*/
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.parent > div {
+    width: 100%;
+    padding: 20px;
+    height: 80px;
+    background-color: #eeeeee;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+    position: relative;
+}
+
+.parent > div:before {
+    content: "This Is Product";
+    position: absolute;
+    font-size: 17px;
+    top: 60%;
+    left: 50%;
+    transform:translateX(-50%);
+    font-weight: normal;
+}
+
+@media (max-width: 767px) {
+}
+
+@media (min-width: 768px) and (max-width: 1124px) {
+    .parent { 
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: 
+        "one one one"
+        "two three four";
+        gap: 20px;
+        color: red;
+    }
+    .parent .one {
+        grid-area: one;
+    }
+    .parent .two {
+        grid-area: two;
+    }
+    .parent .three {
+        grid-area: three;
+    }
+    .parent .four {
+        grid-area: four;
+    }
+    .parent > div:before {
+        left: 50%;
+        transform:translateX(-50%);
+        color: black;
+    }
+}
+
+@media (min-width: 1125px) {
+    .parent { 
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-areas: 
+            "one one"
+            "two three"
+            "four four";
+        gap: 20px;
+        color: #1b958d;
+    }
+    .parent .one {
+        grid-area: one;
+    }
+    .parent .two {
+        grid-area: two;
+    }
+    .parent .three {
+        grid-area: three;
+    }
+    .parent .four {
+        grid-area: four;
+    }
+    .parent > div:before {
+        left: 50%;
+        transform:translateX(-50%);
+        color: black;
+    }
+}
+

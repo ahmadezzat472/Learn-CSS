@@ -1,0 +1,69 @@
+/*--------------------- التكليف 01 ---------------------*/
+.parent {
+    width: 1100px;
+    height: 310px;
+    background-color: gray;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.full,
+.three-div div,
+.two-div div,
+.four-div div{
+    background-color: rgb(207, 203, 203);
+    float: left;
+    padding: 20px;
+    margin-left: 15px;
+}
+
+.full {
+    width: calc((100% - 70px)); /* 70 => 15*2 + 20*2 */
+    margin: 15px;
+}
+
+.three-div,
+.two-div,
+.four-div {
+    margin: 0 15px 15px 0;
+    width: 100%;
+}
+
+.three-div div {
+    width: calc((100% - 180px) /3 ); /* 180 => 20*2*3 + 15*4 */
+}
+
+.two-div div {
+    width: calc( (100% - 125px) /2 ); /* 125 => 15*3 + 20*2*2 */
+}
+
+.four-div div {
+    width: calc( (100% - 235px) /4 ); /* 235 => 20*2*4 + 15*5 */ 
+}
+
+.clear {
+    clear: both;
+}
+
+
+/*--------------------- التكليف 02 ---------------------*/
+.normal,
+.one,
+.two {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: rgb(128, 128, 128); /* Get The Background From Image */
+    color: black;
+}
+
+.one {
+    background-color: rgb(128, 128, 128,0.1);
+}
+
+.two {
+    opacity: 0.1;
+}
