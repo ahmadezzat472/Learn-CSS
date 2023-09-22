@@ -18,52 +18,40 @@
 <br>
 
 ## 2️⃣ Background, Margin, Padding
-#### [codes for lessons from [05] to [08]](https://github.com/ahmadezzat472/Learn-CSS/tree/main/sheet_01%3B%2005-08)   
+#### [codes for lessons from [05] to [08]](https://github.com/ahmadezzat472/Learn-CSS/tree/main/sheet_02%3B%2005-08)   
 <br>
 
 ## 3️⃣ Border, Outline, Display
-#### [codes for lessons from [09] to [12]](https://github.com/ahmadezzat472/Learn-CSS/tree/main/sheet_01%3B%2009-12)
+#### [codes for lessons from [09] to [12]](https://github.com/ahmadezzat472/Learn-CSS/tree/main/sheet_03%3B%2009-12)
 <br>
 
 ## 4️⃣ Nesting, Dimensions, Overflow
-#### [codes for lessons from [13] to [16]](
-
-
+#### [codes for lessons from [13] to [16]](https://github.com/ahmadezzat472/Learn-CSS/tree/main/sheet_04%3B%2013-16)
+<br>
 
 ## 5️⃣ Text Formatting
-#### [codes for lessons from [17] to [21]]
-   
-
-
-
+#### [codes for lessons from [17] to [21]](https://github.com/ahmadezzat472/Learn-CSS/tree/main/sheet_05%3B%2017-21)
+<br>
 
 ## 6️⃣ Inheritance, Typography
-#### [codes for lessons from [22] to [26]]
-  
-
-
-
+#### [codes for lessons from [22] to [26]](https://github.com/ahmadezzat472/Learn-CSS/tree/main/sheet_06%3B%2022-26)
+<br>
 
 ## 7️⃣ Float, Opacity
-#### [codes for lessons from [27] to [29]](  
-    
-
-
+#### [codes for lessons from [27] to [29]](https://github.com/ahmadezzat472/Learn-CSS/tree/main/sheet_07%3B%2027-29)
+<br>
 
 ## 8️⃣ Position, List, Table
-#### [codes for lessons from [30] to [33]]
-    
+#### [codes for lessons from [30] to [33]](https://github.com/ahmadezzat472/Learn-CSS/tree/main/sheet_08%3B%2030-33)
+<br>
 
 ## 9️⃣ Pseudo Classes, Pseudo Elements
-#### [codes for lessons from [34] to [37]]( 
+#### [codes for lessons from [34] to [37]](https://github.com/ahmadezzat472/Learn-CSS/tree/main/sheet_09%3B%2034-37)
+<br>
  
-
 ## 🔟 Border Radius, Box Shadow
-#### [codes for lessons from [38] to [41]](h  
-    
-
-
-
+#### [codes for lessons from [38] to [41]](https://github.com/ahmadezzat472/Learn-CSS/tree/main/sheet_10%3B%2038-41)
+<br>
 
 ## 1️⃣1️⃣ Transitions, Variables
 #### [codes for lessons from [42] to [45]]( 
