@@ -54,54 +54,41 @@
 <br>
 
 ## 1️⃣1️⃣ Transitions, Variables
-#### [codes for lessons from [42] to [45]]( 
-   
-
+#### [codes for lessons from [42] to [45]](https://github.com/ahmadezzat472/Learn-CSS/tree/main/sheet_11%3B%2042-45)
+<br>
 
 ## 1️⃣2️⃣ Flex Box
-#### [codes for lessons from [46] to [53]]( 
-     
-
-
+#### [codes for lessons from [46] to [53]](https://github.com/ahmadezzat472/Learn-CSS/tree/main/sheet_12%3B%2046-53)
+<br>
 
 ## 1️⃣3️⃣ Filters, Gradient
-#### [codes for lessons from [54] to [56]](
-   
-
+#### [codes for lessons from [54] to [56]](https://github.com/ahmadezzat472/Learn-CSS/tree/main/sheet_13%3B%2054-56)
+<br>
 
 ## 1️⃣4️⃣ Grid
-#### [codes for lessons from [57] to [64]](  
-    
-
-
+#### [codes for lessons from [57] to [64]](https://github.com/ahmadezzat472/Learn-CSS/tree/main/sheet_14%3B%2057-64)
+<br>
 
 ## 1️⃣5️⃣ Scale, Rotate, Translate
-#### [codes for lessons from [65] to [67]]( 
- 
-
+#### [codes for lessons from [65] to [67]](https://github.com/ahmadezzat472/Learn-CSS/tree/main/sheet_15%3B%2065-67)
+<br>
 
 ## 1️⃣6️⃣ Skew, Matrix, 3D Transform
-#### [codes for lessons from [68] to [73]]
-
-
-
+#### [codes for lessons from [68] to [73]](https://github.com/ahmadezzat472/Learn-CSS/tree/main/sheet_16%3B%2068-73)
+<br>
 
 ## 1️⃣7️⃣ Animation
-#### [codes for lessons from [74] to [77]] 
-  
-
+#### [codes for lessons from [74] to [77]](https://github.com/ahmadezzat472/Learn-CSS/tree/main/sheet_17%3B%2074-77)
+<br>
 
 ## 1️⃣8️⃣ Selectors
-#### [codes for lessons from [78] to [82]]
-     
-
+#### [codes for lessons from [78] to [82]](https://github.com/ahmadezzat472/Learn-CSS/tree/main/sheet_18%3B%2078-82)
+<br>
 
 ## 1️⃣9️⃣ Media Queries
-#### [codes for lessons from [83] to [85]]
-
-
-
+#### [codes for lessons from [83] to [85]](https://github.com/ahmadezzat472/Learn-CSS/tree/main/sheet_19%3B%2083-85)
+<br>
 
 ## 2️⃣0️⃣ Global Values
-#### [codes for lessons from [86] to [88]]  
-  
+#### [codes for lessons from [86] to [88]](https://github.com/ahmadezzat472/Learn-CSS/tree/main/sheet_20%3B%2086-88)
+
